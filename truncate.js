@@ -28,12 +28,6 @@ var shortText = truncateWords(originalText, wordLimit);
 console.log('originalText: ' + originalText);
 console.log('shortText: ' + shortText);
 
-//___________________________Kiras Work________________________________________________
-
-
-//// TODO: Create a Function called truncateWords() that accepts two arguments: 
-// longText (a String with several words in it)
-// numWords (an Integer that sets the number of words you want in the returned text)
 
 
 //Create an function that excludes words in wrttient statement called: truncateWords
@@ -53,7 +47,7 @@ function truncateWords(longText, numWords) {
     console.log("4. Remove those words from the Array: " + previewText);
     //print results with elipses at the end of text 
     console.log("5. Add an additional String item to the Array to put an ellipses in: " + previewText + " ...");
-    
+    //return the original string, truncated string, and word count 
     return previewText + " ..." + " " + "Original word count: " + wordCount;
 }
  
