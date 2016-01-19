@@ -41,7 +41,7 @@ function truncateWords(longText, numWords) {
     var wordCount = strTextArray.length;
     console.log("2. Use the length attribute to find the number of words in the Array: " + strTextArray.length);
     //decide where to truncate the text
-    var truncateText = strTextArray.splice(0,8);
+    var truncateText = strTextArray.splice(0,numWords);
     var previewText = truncateText.join(" ");
     console.log("3. Determine how many words should be removed from the String: " + "7");
     console.log("4. Remove those words from the Array: " + previewText);
