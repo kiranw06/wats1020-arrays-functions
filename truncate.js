@@ -51,6 +51,7 @@ function truncateWords(longText, numWords) {
     return previewText + " ..." + " " + "Original word count: " + wordCount;
 }
  
+console.log("Enter a number value to customize the numWords argument: " + truncateWords(originalText,5));
  
 
 
